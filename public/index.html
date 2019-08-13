@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>weather page</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <h1 class="current-conditions">Current Weather</h1>
+    <section>
+      <div>
+        <input class="typed" placeholder= "City Name or Zip"></input>
+        <button class="search">Find Conditions</button>
+      </div>
+    </section>
+    <p class= "conditions"></p>
+    <p class= "city-temps"></p>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
