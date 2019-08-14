@@ -9,5 +9,26 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 25rem;
+  font-family: 'Libre Caslon Display', serif;
+  background-color: azure;
+}
+
+button {
+  background-color: coral;
+  height: 50px;
+  width: 200px;
+  border-style: solid;
+  border-color: goldenrod;
+}
+
+.typed {
+  border-style: solid;
+  border-color: goldenrod;
+  height: 43px;
+  width: 200px;
   justify-content: center;
 }
